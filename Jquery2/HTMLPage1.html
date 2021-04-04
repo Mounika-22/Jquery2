@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="Functions.js"></script>
+
+
+</head>
+<body>
+
+    <div class="container p-3 my-3 bg-light text-body">
+        <h4>Addition and Substraction</h4>
+        <form >
+            <div>
+                <label for="number1">Number 1:</label>
+                <input type="number"  class="form-control"  id="number1">
+            </div>
+
+            <div>
+                <label for="number2">Number 2:</label>
+                <input type="number"  class="form-control"  id="number2">
+            </div>
+            <div>
+                <label for="result">Result:</label>
+                <input type="number"  class="form-control" id="result">
+            </div>
+
+            <button type="button" class="btn btn-primary" id="btnAdd"> Add </button>
+            <button type="button" class="btn btn-success" id="btnSub"> Sub </button>
+        </form>
+    </div>
+    <div class="container p-3 my-3  bg-light text-body">
+        <h4>Convert Name to LowerCase</h4>
+        <div>
+            <div>
+                <label for="text1">Text:</label>
+                <input type="text" id="text1" class="form-control" name="text1">
+            </div>
+            <div>
+                <label for="result1">Result:</label>
+                <input type="text" id="result1" class="form-control" name="result1">
+            </div>
+        </div>
+            <button type="button" class="btn btn-primary" id="btntxt1"> Submit </button>
+        
+    </div>
+    <div class="container p-3 my-3 bg-light text-body">
+        <h4>Combine 2 strings</h4>
+        <div>
+            <div>
+                <label for="text2">Text1:</label>
+                <input type="text" id="text2" class="form-control"  name="text2">
+            </div>
+            <div>
+                <label for="text3">Text2:</label>
+                <input type="text" id="text3" class="form-control" name="text3">
+            </div>
+
+            <button type="button" class="btn btn-primary" id="btntxt2"> Submit </button>
+
+        </div>
+        <p id="res2"></p>
+    </div>
+    <div class="container p-3 my-3 bg-light text-body">
+        <h4>Table of a number</h4>
+        <div>
+            <div>
+                <label for="number3">Number:</label>
+                <input type="number" id="number3" class="form-control"  name="number3">
+            </div>
+            <button type="button" class="btn btn-primary" id="btnTab"> Submit </button>
+
+        </div>
+        <p id="res"></p>
+    </div>
+</body>
+</html>
